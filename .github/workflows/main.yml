@@ -1,0 +1,23 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on: 
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  review_job:
+    runs-on: ubuntu-latest
+    name: A job to validate the PR
+    steps:
+      - name: Invocation of testnet review action
+        id: review
+        uses: parthdesai/action-testnet-review-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          requiredGenesisModification: true
+          genTxDirectory: 1/2
+          genesisFilePath: genesis.json
