@@ -1,0 +1,3 @@
+{
+  cat $HOME/.archway/config/gentx/*.json
+}
