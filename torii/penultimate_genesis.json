@@ -1,0 +1,28 @@
+
+HOMEDIR=$HOME
+KEYNAME="SneG_PG"
+
+archwayd keys add $KEYNAME --home $HOMEDIR
+
+curl -X POST "https://faucet.torii-1.archway.tech/" \
+-H "accept: application/json" \
+-H "Content-Type: application/json" \
+-d "{ \"address\": \"$(archwayd keys show <key-name> -a --home $HOMEDIR)\", \"coins\": [ \"1000000000utorii\" ]}"
+
+archwayd init SneGo --home $HOMEDIR --chain-id torii-1
+
+wget -qO- https://torii-1.archway.tech/genesis| jq ."result"."genesis" > $HOMEDIR/config/genesis.json
+
+archwayd tendermint show-validator --home $HOMEDIR
+
+
+
+archwayd tx staking create-validator \
+--from $(archwayd keys show $KEYNAME -a --home $HOMEDIR) \
+--amount 1000000utorii \
+--min-self-delegation 1000000 \
+--commission-rate 0.1 \
+--commission-max-rate 0.1 \
+--commission-max-change-rate 0.1 \
+--pubkey $(archwayd tendermint show-validator --home $HOMEDIR) \
+--home $HOMEDIR
