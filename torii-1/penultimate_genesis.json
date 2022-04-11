@@ -133,7 +133,7 @@
           "coins": [
             {
               "denom": "utorii",
-              "amount": "1000000000"
+              "amount": "1001000"
             }
           ]
         },
@@ -213,7 +213,7 @@
       "supply": [
         {
           "denom": "utorii",
-          "amount": "870001000000000"
+          "amount": "870000001001000"
         }
       ],
       "denom_metadata": [
