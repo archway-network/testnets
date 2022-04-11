@@ -33,73 +33,47 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway1ntu5fmt2c6djgyxszefftpd89n7dma3p6nrtgq",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway1ntu5fmt2c6djgyxszefftpd89n7dma3p6nrtgq"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway1ea327s9scrxz0yjy34f6n8pydjumu93ucuqcug",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway1ea327s9scrxz0yjy34f6n8pydjumu93ucuqcug"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway1atwx2cs5fep6gr92vlrkqmjmtukaqerewgyaec",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway1atwx2cs5fep6gr92vlrkqmjmtukaqerewgyaec"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway1yvhz3d0744ge3ayweakaj867cf6vyuhxmctrp2",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway1yvhz3d0744ge3ayweakaj867cf6vyuhxmctrp2"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway1j2t0yfqf5467cn53s6zjue859jsmn7966t50v2",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway1j2t0yfqf5467cn53s6zjue859jsmn7966t50v2"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway1fhg3x3achdy55kcxnktdqzarvsagn75hrfrtry",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway1fhg3x3achdy55kcxnktdqzarvsagn75hrfrtry"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway16kspwgyd43xj5xm73c8j90v2rqra6pa5gfx0ck",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway16kspwgyd43xj5xm73c8j90v2rqra6pa5gfx0ck"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway1fe6tvr8p6p7rmtgmyj85df0l5le0ds7d5d52ms",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway1fe6tvr8p6p7rmtgmyj85df0l5le0ds7d5d52ms"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway188gxl0puff90zj59zmwclqa36dffl9z0zwjncp",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway188gxl0puff90zj59zmwclqa36dffl9z0zwjncp"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway1h2v83q9dh483wq006yj3ejexq402dqh6spml3e",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "address": "archway1h2v83q9dh483wq006yj3ejexq402dqh6spml3e"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "archway1vu0u9v2fnl54ag6yr59lyw2d3vq82deaagj7z4"
         }
       ]
     },
@@ -145,6 +119,15 @@
             {
               "denom": "utorii",
               "amount": "33333333333333"
+            }
+          ]
+        },
+        {
+          "address": "archway1vu0u9v2fnl54ag6yr59lyw2d3vq82deaagj7z4",
+          "coins": [
+            {
+              "denom": "utorii",
+              "amount": "1000000000"
             }
           ]
         },
@@ -197,7 +180,7 @@
       "supply": [
         {
           "denom": "utorii",
-          "amount": "870000000000000"
+          "amount": "870001000000000"
         }
       ],
       "denom_metadata": [
@@ -206,7 +189,6 @@
           "denom_units": [
             {
               "denom": "utorii",
-              "exponent": 0,
               "aliases": [
                 "microtorii"
               ]
