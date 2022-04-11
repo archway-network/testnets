@@ -100,13 +100,6 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "archway10kvr0erv3jmw0pug9vlqzrvpvxynm88mzcxv9m",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
         }
       ]
     },
@@ -152,15 +145,6 @@
             {
               "denom": "utorii",
               "amount": "33333333333333"
-            }
-          ]
-        },
-        {
-          "address": "archway10kvr0erv3jmw0pug9vlqzrvpvxynm88mzcxv9m",
-          "coins": [
-            {
-              "denom": "utorii",
-              "amount": "1000000000"
             }
           ]
         },
@@ -213,7 +197,7 @@
       "supply": [
         {
           "denom": "utorii",
-          "amount": "870001000000000"
+          "amount": "870000000000000"
         }
       ],
       "denom_metadata": [
