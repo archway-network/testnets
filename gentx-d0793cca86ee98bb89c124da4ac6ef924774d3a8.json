@@ -1,0 +1,61 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "s4rever",
+          "identity": "",
+          "website": "",
+          "security_contact": "",
+          "details": ""
+        },
+        "commission": {
+          "rate": "0.100000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "archway1jzg9vwc8jh8kvy3jm4cltgnn4aqff3k0zh6sqd",
+        "validator_address": "archwayvaloper1jzg9vwc8jh8kvy3jm4cltgnn4aqff3k0znnjdy",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "Jsb3gcfaBn8pUrOI+ew227I9v7+ZhyPLvc4v04/kNO4="
+        },
+        "value": {
+          "denom": "utorii",
+          "amount": "1000000"
+        }
+      }
+    ],
+    "memo": "d0793cca86ee98bb89c124da4ac6ef924774d3a8@49.12.188.145:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "Ays5ZwrcGuHpu/956pHEV7jEdnRic6m0y0h+4oJJ/+bb"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "FGa+0QyApXWNj1gWx7t5MFPScabbSBEQ3p8SyUdV3OMpWkd5BCV5UsjCXjxrxeVzKTnTySCVt89e3qpNQq2tdA=="
+  ]
+}
