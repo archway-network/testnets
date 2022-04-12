@@ -100,6 +100,27 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "archway143vemxdul2ytf8dngzw5pgjsh35zs9v9ntzfv0",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "archway1ywc2y0mazpzvw8p359zgf29w2w4kcm4m9hnucl",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "archway1y8yv96emmmumh5n2sawzh53h223yuxy7vyqpsf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -113,11 +134,29 @@
       },
       "balances": [
         {
+          "address": "archway1y8yv96emmmumh5n2sawzh53h223yuxy7vyqpsf",
+          "coins": [
+            {
+              "denom": "utorii",
+              "amount": "1001000"
+            }
+          ]
+        },
+        {
           "address": "archway1yvhz3d0744ge3ayweakaj867cf6vyuhxmctrp2",
           "coins": [
             {
               "denom": "utorii",
               "amount": "134000000000000"
+            }
+          ]
+        },
+        {
+          "address": "archway1ywc2y0mazpzvw8p359zgf29w2w4kcm4m9hnucl",
+          "coins": [
+            {
+              "denom": "utorii",
+              "amount": "1001000"
             }
           ]
         },
@@ -167,6 +206,15 @@
           ]
         },
         {
+          "address": "archway143vemxdul2ytf8dngzw5pgjsh35zs9v9ntzfv0",
+          "coins": [
+            {
+              "denom": "utorii",
+              "amount": "1001000"
+            }
+          ]
+        },
+        {
           "address": "archway1ea327s9scrxz0yjy34f6n8pydjumu93ucuqcug",
           "coins": [
             {
@@ -197,7 +245,7 @@
       "supply": [
         {
           "denom": "utorii",
-          "amount": "870000000000000"
+          "amount": "870000003003000"
         }
       ],
       "denom_metadata": [
