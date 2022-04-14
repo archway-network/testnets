@@ -1,0 +1,8 @@
+archwayd gentx "$archway_wallet_name" 1000000utorii \
+  --moniker "$archway_moniker" \
+  --pubkey `archwayd tendermint show-validator` \
+  --chain-id torii-1 \
+  --commission-rate 0.1 \
+  --commission-max-rate 0.2 \
+  --commission-max-change-rate 0.05 \
+  --output-document "$HOME/$archway_moniker.json"
