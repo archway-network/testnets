@@ -1,0 +1,11 @@
+{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"Exupery","id
+entity":"","website":"","security_contact":"","details":""},"commission":{"rate":"0.100000000000000000","max_rate
+":"0.100000000000000000","max_change_rate":"0.100000000000000000"},"min_self_delegation":"1","delegator_address":
+"archway1m4v0v4lg48m4w9lyzzjpqrhlzal5ft98vzctjd","validator_address":"archwayvaloper1m4v0v4lg48m4w9lyzzjpqrhlzal5
+ft98vx3fly","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"EnU4MjlrCK00o49xKZLimou4Xv1ZkCon0g6gnlT9AoU=
+"},"value":{"denom":"utorii","amount":"1000000"}}],"memo":"816116b14877fad89e5517e86f26472d284ca73d@10.164.0.3:26
+656","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos"
+:[{"public_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A64CsrKXVe2amARNGI+LfRf6xji1ccVdElyurMVbnpXV"},
+"mode_info":{"single":{"mode":"SIGN_MODE_DIRECT"}},"sequence":"0"}],"fee":{"amount":[],"gas_limit":"200000","paye
+r":"","granter":""}},"signatures":["HNqYxf9A56YcgJ7A9bZObq93O94VvFF4A4p3HRNdf7VXwADuy+TrmwyBay7weo+qJ3p0Sl6WJDTdC
+OGZkb2MEA=="]}
