@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-04-15T14:00:00.000000000Z",
+  "genesis_time": "2022-04-15T12:00:00.000000000Z",
   "chain_id": "torii-1",
   "initial_height": "1",
   "consensus_params": {
