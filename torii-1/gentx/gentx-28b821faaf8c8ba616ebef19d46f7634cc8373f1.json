@@ -1,0 +1,8 @@
+{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"Pterko","identity":"","website":"","security_con
+tact":"","details":""},"commission":{"rate":"0.100000000000000000","max_rate":"0.100000000000000000","max_change_rate":"0.100000000000000000"},"min_s
+elf_delegation":"1","delegator_address":"archway1d4zu7cvml7uw7g7rdz2w0xwcf669ny5kmn2ren","validator_address":"archwayvaloper1d4zu7cvml7uw7g7rdz2w0xwc
+f669ny5kmhrp56","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"2NsrfwuanisvrtYClKXJr1LGFLO6Hwe6VPfliLaz+gI="},"value":{"denom":"utorii","am
+ount":"1000000"}}],"memo":"28b821faaf8c8ba616ebef19d46f7634cc8373f1@192.168.1.239:26656","timeout_height":"0","extension_options":[],"non_critical_ex
+tension_options":[]},"auth_info":{"signer_infos":[{"public_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AtG/HPG4TVlhmzemMgXeRJ3JPTCx9G/99Xn
+ONk89GkpC"},"mode_info":{"single":{"mode":"SIGN_MODE_DIRECT"}},"sequence":"0"}],"fee":{"amount":[],"gas_limit":"200000","payer":"","granter":""}},"si
+gnatures":["m/nMdb/HAmV30miUrxFrHyGktrr/v15XObmmTUUlOjoyuaawnEzZ0y73EbcjmNKpQoQsaNn1zORDGBxht222Bw=="]}
