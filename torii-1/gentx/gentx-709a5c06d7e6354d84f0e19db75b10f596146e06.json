@@ -1,0 +1,61 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Ololosh",
+          "identity": "",
+          "website": "",
+          "security_contact": "",
+          "details": ""
+        },
+        "commission": {
+          "rate": "0.100000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "archway1t69wy8jqzkh2yw0zxsk7d2wyyztr9zm8vp7n32",
+        "validator_address": "archwayvaloper1t69wy8jqzkh2yw0zxsk7d2wyyztr9zm8v9h3ur",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "LCvapD5qqjq8HBCzXmKdwUSmEosoesTE5MOuJpLLN+U="
+        },
+        "value": {
+          "denom": "utorii",
+          "amount": "1000000"
+        }
+      }
+    ],
+    "memo": "709a5c06d7e6354d84f0e19db75b10f596146e06@45.83.122.143:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "AqkZ5MGEix4jLERlaafI+6AO9UFtgLUoNpN99isqR0B2"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "dybcu8PsEX5DxG4n+ebiAUvxsKGWyx3mf2e8DQd/WlIXQzSWwyfbNSInNJKzz9UscM+fofoIYoUveTrV3VuurA=="
+  ]
+}
