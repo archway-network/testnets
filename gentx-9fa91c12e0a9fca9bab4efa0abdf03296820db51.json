@@ -1,0 +1,9 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{"body":\{"messages":[\{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":\{"moniker":"apluanode1","identity":"","website":"","security_contact":"","details":""\},"commission":\{"rate":"0.050000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0.010000000000000000"\},"min_self_delegation":"1","delegator_address":"archway1wuzrg9jflvz7wwscumpkaxt8h70cj4zrx653zl","validator_address":"archwayvaloper1wuzrg9jflvz7wwscumpkaxt8h70cj4zrx7an0k","pubkey":\{"@type":"/cosmos.crypto.ed25519.PubKey","key":"a18v16FeGSNgnJAm6RrYYSkYaUgC64/HJby8gVs4J4A="\},"value":\{"denom":"utorii","amount":"1000000"\}\}],"memo":"9fa91c12e0a9fca9bab4efa0abdf03296820db51@178.18.244.146:26656","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]\},"auth_info":\{"signer_infos":[\{"public_key":\{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AtY8YNdzPelseLxutpPluxn4LnnQWqYOSsGZoH11skJ8"\},"mode_info":\{"single":\{"mode":"SIGN_MODE_DIRECT"\}\},"sequence":"0"\}],"fee":\{"amount":[],"gas_limit":"200000","payer":"","granter":""\}\},"signatures":["45/CTu/llZ7RRjWWcC8PLvlR55C6Uer/9SIh1Z6GyVcHsA7NlOnmsv1Xfq+t1ncNsZAs6lOMfcWz4AkPa1dMMg=="]\}\
+root@vmi623977:~# }
